@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*& Report zdemo_ain_cl24
+*& Report zdemo_ain_cl25
 *&---------------------------------------------------------------------*
 *& This is the demo program written for book:
 *& ALV grid in nutshell by Łukasz Pęgiel
@@ -17,7 +17,7 @@
 *&- 3rd character = intensified (0=off, 1=on)                          *
 *&- 4th character = inverse display (0=off, 1=on)                      *
 *&---------------------------------------------------------------------*
-report zdemo_ain_cl24.
+report zdemo_ain_cl25.
 
 include zdemo_ain_include_screen.
 
