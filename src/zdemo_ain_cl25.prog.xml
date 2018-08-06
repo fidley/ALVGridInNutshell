@@ -3,12 +3,11 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>ZDEMO_AIN_CL24</NAME>
+    <NAME>ZDEMO_AIN_CL25</NAME>
     <STATE>A</STATE>
     <VARCL>X</VARCL>
     <DBAPL>S</DBAPL>
     <SUBC>1</SUBC>
-    <RLOAD>E</RLOAD>
     <FIXPT>X</FIXPT>
     <LDBNAME>D$S</LDBNAME>
     <UCCHECK>X</UCCHECK>
@@ -16,7 +15,7 @@
    <DYNPROS>
     <item>
      <HEADER>
-      <PROGRAM>ZDEMO_AIN_CL24</PROGRAM>
+      <PROGRAM>ZDEMO_AIN_CL25</PROGRAM>
       <SCREEN>0100</SCREEN>
       <LANGUAGE>E</LANGUAGE>
       <DESCRIPT>AIN_CL01</DESCRIPT>
@@ -87,32 +86,8 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>DEMO AIN</ENTRY>
-     <LENGTH>8</LENGTH>
-    </item>
-    <item>
-     <ID>S</ID>
-     <KEY>P_EDMCE</KEY>
-     <ENTRY>Conv Exit ==ALPHA</ENTRY>
-     <LENGTH>25</LENGTH>
-    </item>
-    <item>
-     <ID>S</ID>
-     <KEY>P_EDMFT</KEY>
-     <ENTRY>Free Text: Flight number is: _</ENTRY>
-     <LENGTH>38</LENGTH>
-    </item>
-    <item>
-     <ID>S</ID>
-     <KEY>P_EDMLL</KEY>
-     <ENTRY>Left Side Repl: LL__:__:__</ENTRY>
-     <LENGTH>34</LENGTH>
-    </item>
-    <item>
-     <ID>S</ID>
-     <KEY>P_EDMRR</KEY>
-     <ENTRY>Right Side Repl: RR__:__:__</ENTRY>
-     <LENGTH>35</LENGTH>
+     <ENTRY>ALV Grid in the Nutshell: Field catalog - Emphasize</ENTRY>
+     <LENGTH>51</LENGTH>
     </item>
    </TPOOL>
   </asx:values>
