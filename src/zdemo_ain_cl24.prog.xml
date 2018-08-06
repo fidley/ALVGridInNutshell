@@ -92,10 +92,27 @@
     </item>
     <item>
      <ID>S</ID>
-     <KEY>P_EDMASK</KEY>
-     <ENTRY>.</ENTRY>
-     <LENGTH>9</LENGTH>
-     <SPLIT>D</SPLIT>
+     <KEY>P_EDMCE</KEY>
+     <ENTRY>Conv Exit ==ALPHA</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_EDMFT</KEY>
+     <ENTRY>Free Text: Flight number is: _</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_EDMLL</KEY>
+     <ENTRY>Left Side Repl: LL__:__:__</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_EDMRR</KEY>
+     <ENTRY>Right Side Repl: LL__:__:__</ENTRY>
+     <LENGTH>35</LENGTH>
     </item>
    </TPOOL>
   </asx:values>
