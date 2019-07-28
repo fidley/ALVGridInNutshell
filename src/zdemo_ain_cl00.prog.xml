@@ -4,8 +4,6 @@
   <asx:values>
    <PROGDIR>
     <NAME>ZDEMO_AIN_CL00</NAME>
-    <STATE>A</STATE>
-    <VARCL>X</VARCL>
     <DBAPL>S</DBAPL>
     <SUBC>1</SUBC>
     <FIXPT>X</FIXPT>
