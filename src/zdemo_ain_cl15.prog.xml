@@ -5,6 +5,7 @@
    <PROGDIR>
     <NAME>ZDEMO_AIN_CL15</NAME>
     <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
     <SUBC>1</SUBC>
     <RLOAD>E</RLOAD>
     <FIXPT>X</FIXPT>
@@ -85,8 +86,8 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>DEMO AIN</ENTRY>
-     <LENGTH>30</LENGTH>
+     <ENTRY>ALV Grid in the Nutshell: Field catalog - Key Sel</ENTRY>
+     <LENGTH>49</LENGTH>
     </item>
    </TPOOL>
   </asx:values>

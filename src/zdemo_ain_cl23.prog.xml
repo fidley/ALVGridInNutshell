@@ -5,6 +5,7 @@
    <PROGDIR>
     <NAME>ZDEMO_AIN_CL23</NAME>
     <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
     <SUBC>1</SUBC>
     <RLOAD>E</RLOAD>
     <FIXPT>X</FIXPT>
@@ -85,8 +86,8 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>DEMO AIN</ENTRY>
-     <LENGTH>8</LENGTH>
+     <ENTRY>ALV Grid in the Nutshell: Field catalog - No Conversion Exit</ENTRY>
+     <LENGTH>60</LENGTH>
     </item>
     <item>
      <ID>S</ID>

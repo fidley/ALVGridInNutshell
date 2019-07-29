@@ -5,6 +5,7 @@
    <PROGDIR>
     <NAME>ZDEMO_AIN_CL06</NAME>
     <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
     <SUBC>1</SUBC>
     <FIXPT>X</FIXPT>
     <LDBNAME>D$S</LDBNAME>
@@ -81,6 +82,13 @@
      </SPACES>
     </item>
    </DYNPROS>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>ALV Grid in the Nutshell: Field catalog - Fieldname</ENTRY>
+     <LENGTH>51</LENGTH>
+    </item>
+   </TPOOL>
   </asx:values>
  </asx:abap>
 </abapGit>

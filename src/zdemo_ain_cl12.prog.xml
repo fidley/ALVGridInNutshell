@@ -5,6 +5,7 @@
    <PROGDIR>
     <NAME>ZDEMO_AIN_CL12</NAME>
     <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
     <SUBC>1</SUBC>
     <FIXPT>X</FIXPT>
     <LDBNAME>D$S</LDBNAME>
@@ -84,8 +85,8 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>Demo for Field-Catalog - Round</ENTRY>
-     <LENGTH>30</LENGTH>
+     <ENTRY>ALV Grid in the Nutshell: Field catalog - Round</ENTRY>
+     <LENGTH>47</LENGTH>
     </item>
     <item>
      <ID>S</ID>

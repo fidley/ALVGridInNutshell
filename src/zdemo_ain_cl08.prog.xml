@@ -5,6 +5,7 @@
    <PROGDIR>
     <NAME>ZDEMO_AIN_CL08</NAME>
     <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
     <SUBC>1</SUBC>
     <FIXPT>X</FIXPT>
     <LDBNAME>D$S</LDBNAME>
@@ -88,6 +89,11 @@
      <ENTRY>.</ENTRY>
      <LENGTH>9</LENGTH>
      <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>ALV Grid in the Nutshell: Field catalog - Currency</ENTRY>
+     <LENGTH>50</LENGTH>
     </item>
    </TPOOL>
   </asx:values>

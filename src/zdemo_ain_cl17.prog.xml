@@ -5,6 +5,7 @@
    <PROGDIR>
     <NAME>ZDEMO_AIN_CL17</NAME>
     <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
     <SUBC>1</SUBC>
     <FIXPT>X</FIXPT>
     <LDBNAME>D$S</LDBNAME>
@@ -84,8 +85,8 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>Symbols</ENTRY>
-     <LENGTH>7</LENGTH>
+     <ENTRY>ALV Grid in the Nutshell: Field catalog - Symbols</ENTRY>
+     <LENGTH>49</LENGTH>
     </item>
    </TPOOL>
   </asx:values>
