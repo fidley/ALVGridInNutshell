@@ -3,8 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>ZDEMO_AIN_CL29</NAME>
+    <NAME>ZDEMO_AIN_CL30</NAME>
     <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
     <SUBC>1</SUBC>
     <RLOAD>E</RLOAD>
     <FIXPT>X</FIXPT>
@@ -14,7 +15,7 @@
    <DYNPROS>
     <item>
      <HEADER>
-      <PROGRAM>ZDEMO_AIN_CL29</PROGRAM>
+      <PROGRAM>ZDEMO_AIN_CL30</PROGRAM>
       <SCREEN>0100</SCREEN>
       <LANGUAGE>E</LANGUAGE>
       <DESCRIPT>AIN_CL01</DESCRIPT>
@@ -85,12 +86,12 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>ALV Grid in the Nutshell: Field catalog - No Out</ENTRY>
-     <LENGTH>48</LENGTH>
+     <ENTRY>ALV Grid in the Nutshell: Field catalog - Technical Field</ENTRY>
+     <LENGTH>57</LENGTH>
     </item>
     <item>
      <ID>S</ID>
-     <KEY>P_NOOUT</KEY>
+     <KEY>P_TECH</KEY>
      <ENTRY>.</ENTRY>
      <LENGTH>9</LENGTH>
      <SPLIT>D</SPLIT>

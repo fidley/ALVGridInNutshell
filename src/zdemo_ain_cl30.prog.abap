@@ -1,14 +1,14 @@
 *&---------------------------------------------------------------------*
-*& Report zdemo_ain_cl29
+*& Report zdemo_ain_cl30
 *&---------------------------------------------------------------------*
 *& This is the demo program written for book:
 *& ALV grid in nutshell by Łukasz Pęgiel
 *&---------------------------------------------------------------------*
-REPORT zdemo_ain_cl29.
+REPORT zdemo_ain_cl30.
 
 INCLUDE zdemo_ain_include_screen.
 
-PARAMETERS: p_noout TYPE lvc_s_fcat-no_out AS CHECKBOX DEFAULT abap_true.
+PARAMETERS: p_tech TYPE lvc_s_fcat-tech AS CHECKBOX DEFAULT abap_true.
 
 START-OF-SELECTION.
 
@@ -29,8 +29,8 @@ START-OF-SELECTION.
                                  ( fieldname = 'FLTIME' )
                                  ( fieldname = 'DEPTIME' )
                                  ( fieldname = 'ARRTIME' )
-                                 ( fieldname = 'DISTANCE' no_out = p_noout reptext = 'Distance')
-                                 ( fieldname = 'DISTID' no_out = p_noout reptext = 'Unit' )
+                                 ( fieldname = 'DISTANCE' tech = p_tech reptext = 'Distance')
+                                 ( fieldname = 'DISTID' tech = p_tech reptext = 'Unit' )
 
                                ).
   grid->set_table_for_first_display(
