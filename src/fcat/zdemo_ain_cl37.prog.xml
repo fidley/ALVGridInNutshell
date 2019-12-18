@@ -83,20 +83,6 @@
      </SPACES>
     </item>
    </DYNPROS>
-   <TPOOL>
-    <item>
-     <ID>R</ID>
-     <ENTRY>ALV Grid in the Nutshell: Field catalog - ABAP data type (C,D,N,...)</ENTRY>
-     <LENGTH>70</LENGTH>
-    </item>
-    <item>
-     <ID>S</ID>
-     <KEY>P_DATAT</KEY>
-     <ENTRY>.</ENTRY>
-     <LENGTH>9</LENGTH>
-     <SPLIT>D</SPLIT>
-    </item>
-   </TPOOL>
   </asx:values>
  </asx:abap>
 </abapGit>
