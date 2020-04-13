@@ -2,14 +2,14 @@
 *& Report zdemo_ain_cl09
 *&---------------------------------------------------------------------*
 *& This is the demo program written for book:
-*& ALV grid in nutshell by Łukasz Pęgiel
+*& ALV grid in nutshell by Å�ukasz PÄ™giel
 *&---------------------------------------------------------------------*
 report zdemo_ain_cl09.
 include zdemo_ain_include_screen.
 
 initialization.
 
-select * up to 50 rows from sflight into table @data(flights).
+select * up to 10000 rows from sflight into table @data(flights).
 
 data(grid) = new cl_gui_alv_grid(
                   i_parent = new cl_gui_custom_container( container_name = 'CC' )

@@ -1,38 +1,41 @@
 *&---------------------------------------------------------------------*
-*& Report zdemo_ain_cl36
+*& Report
 *&---------------------------------------------------------------------*
 *& This is the demo program written for book:
 *& ALV grid in nutshell by Łukasz Pęgiel
 *&---------------------------------------------------------------------*
-REPORT zdemo_ain_cl37.
+REPORT zdemo_ain_cl41r.
 
 INCLUDE zdemo_ain_include_screen.
 
-PARAMETERS: p_inttyp TYPE lvc_s_fcat-inttype default 'C'.
+PARAMETERS: p_cityfr TYPE spfli-cityfrom.
 
 START-OF-SELECTION.
 
   SELECT * UP TO 50 ROWS FROM spfli
-    INTO TABLE @DATA(flights).
+    INTO TABLE @DATA(flights)
+    where CITYFROM eq @p_cityfr.
 
   DATA(grid) = NEW cl_gui_alv_grid(
                     i_parent = NEW cl_gui_custom_container( container_name = 'CC' )
                                    ).
   DATA(fcat) = VALUE lvc_t_fcat(
                                  ( fieldname = 'CARRID' )
-                                 ( fieldname = 'CONNID' inttype = p_inttyp )
+                                 ( fieldname = 'CONNID' )
                                  ( fieldname = 'COUNTRYFR' )
                                  ( fieldname = 'CITYFROM' )
-                                 ( fieldname = 'AIRPFROM' )
+                                 ( fieldname = 'AIRPFROM')
                                  ( fieldname = 'COUNTRYTO' )
                                  ( fieldname = 'CITYTO' )
-                                 ( fieldname = 'FLTIME'  inttype = p_inttyp )
-                                 ( fieldname = 'DEPTIME' inttype = p_inttyp )
+                                 ( fieldname = 'FLTIME' )
+                                 ( fieldname = 'DEPTIME' )
                                  ( fieldname = 'FLTYPE' )
                                ).
+
   grid->set_table_for_first_display(
     EXPORTING
-        is_layout = VALUE #( col_opt = abap_true edit = abap_true )
+        i_structure_name = 'SPFLI'
+        is_layout = VALUE #( col_opt = abap_true )
     CHANGING
       it_fieldcatalog               = fcat
       it_outtab                     = flights
@@ -43,6 +46,5 @@ START-OF-SELECTION.
       OTHERS                        = 4
   ).
   IF sy-subrc EQ 0.
-    grid->register_edit_event( grid->mc_evt_modified ).
     CALL SCREEN 0100.
   ENDIF.

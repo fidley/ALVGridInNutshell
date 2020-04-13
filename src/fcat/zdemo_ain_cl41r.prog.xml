@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>ZDEMO_AIN_CL37</NAME>
+    <NAME>ZDEMO_AIN_CL41R</NAME>
     <DBAPL>S</DBAPL>
     <DBNA>D$</DBNA>
     <SUBC>1</SUBC>
@@ -15,7 +15,7 @@
    <DYNPROS>
     <item>
      <HEADER>
-      <PROGRAM>ZDEMO_AIN_CL37</PROGRAM>
+      <PROGRAM>ZDEMO_AIN_CL41R</PROGRAM>
       <SCREEN>0100</SCREEN>
       <LANGUAGE>E</LANGUAGE>
       <DESCRIPT>AIN_CL01</DESCRIPT>
@@ -86,12 +86,12 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>ALV Grid in the Nutshell: Field catalog - ABAP data type (C,D,N,...)</ENTRY>
-     <LENGTH>68</LENGTH>
+     <ENTRY>ALV Grid in the Nutshell: Field catalog - Report-Report Interface (R)</ENTRY>
+     <LENGTH>69</LENGTH>
     </item>
     <item>
      <ID>S</ID>
-     <KEY>P_INTTYP</KEY>
+     <KEY>P_REPTXT</KEY>
      <ENTRY>.</ENTRY>
      <LENGTH>9</LENGTH>
      <SPLIT>D</SPLIT>

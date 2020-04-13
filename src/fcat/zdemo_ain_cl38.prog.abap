@@ -1,14 +1,14 @@
 *&---------------------------------------------------------------------*
-*& Report zdemo_ain_cl36
+*& Report
 *&---------------------------------------------------------------------*
 *& This is the demo program written for book:
 *& ALV grid in nutshell by Łukasz Pęgiel
 *&---------------------------------------------------------------------*
-REPORT zdemo_ain_cl37.
+REPORT zdemo_ain_cl38.
 
 INCLUDE zdemo_ain_include_screen.
 
-PARAMETERS: p_inttyp TYPE lvc_s_fcat-inttype default 'C'.
+PARAMETERS: p_intlen TYPE lvc_s_fcat-intlen default '2'.
 
 START-OF-SELECTION.
 
@@ -20,19 +20,19 @@ START-OF-SELECTION.
                                    ).
   DATA(fcat) = VALUE lvc_t_fcat(
                                  ( fieldname = 'CARRID' )
-                                 ( fieldname = 'CONNID' inttype = p_inttyp )
+                                 ( fieldname = 'CONNID' intlen = p_intlen )
                                  ( fieldname = 'COUNTRYFR' )
-                                 ( fieldname = 'CITYFROM' )
+                                 ( fieldname = 'CITYFROM' intlen = p_intlen )
                                  ( fieldname = 'AIRPFROM' )
                                  ( fieldname = 'COUNTRYTO' )
                                  ( fieldname = 'CITYTO' )
-                                 ( fieldname = 'FLTIME'  inttype = p_inttyp )
-                                 ( fieldname = 'DEPTIME' inttype = p_inttyp )
+                                 ( fieldname = 'FLTIME'  intlen = p_intlen )
+                                 ( fieldname = 'DEPTIME' intlen = p_intlen )
                                  ( fieldname = 'FLTYPE' )
                                ).
   grid->set_table_for_first_display(
     EXPORTING
-        is_layout = VALUE #( col_opt = abap_true edit = abap_true )
+        is_layout = VALUE #( col_opt = abap_false edit = abap_true )
     CHANGING
       it_fieldcatalog               = fcat
       it_outtab                     = flights

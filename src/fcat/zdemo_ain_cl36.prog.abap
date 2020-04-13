@@ -43,5 +43,6 @@ START-OF-SELECTION.
       OTHERS                        = 4
   ).
   IF sy-subrc EQ 0.
+    grid->register_edit_event( grid->mc_evt_modified ).
     CALL SCREEN 0100.
   ENDIF.
