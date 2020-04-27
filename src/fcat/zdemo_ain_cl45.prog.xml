@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>ZDEMO_AIN_CL42</NAME>
+    <NAME>ZDEMO_AIN_CL45</NAME>
     <DBAPL>S</DBAPL>
     <DBNA>D$</DBNA>
     <SUBC>1</SUBC>
@@ -15,7 +15,7 @@
    <DYNPROS>
     <item>
      <HEADER>
-      <PROGRAM>ZDEMO_AIN_CL42</PROGRAM>
+      <PROGRAM>ZDEMO_AIN_CL45</PROGRAM>
       <SCREEN>0100</SCREEN>
       <LANGUAGE>E</LANGUAGE>
       <DESCRIPT>AIN_CL01</DESCRIPT>
@@ -86,8 +86,8 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>ALV Grid in the Nutshell: Field catalog - Domain name</ENTRY>
-     <LENGTH>53</LENGTH>
+     <ENTRY>ALV Grid in the Nutshell: Field catalog - Field name for column group</ENTRY>
+     <LENGTH>69</LENGTH>
     </item>
     <item>
      <ID>S</ID>

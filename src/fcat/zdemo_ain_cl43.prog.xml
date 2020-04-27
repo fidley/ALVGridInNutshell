@@ -86,8 +86,8 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>ALV Grid in the Nutshell: Field catalog - Header</ENTRY>
-     <LENGTH>48</LENGTH>
+     <ENTRY>ALV Grid in the Nutshell: Field catalog - Group Key</ENTRY>
+     <LENGTH>51</LENGTH>
     </item>
     <item>
      <ID>S</ID>
